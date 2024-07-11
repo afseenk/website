@@ -1,14 +1,10 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
   }
   
   /* Style the body */
   body {
-    justify-content: center;
-    align-items: center;
+
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
   }
@@ -50,33 +46,17 @@
   }
   
   /* Column container */
-  .row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-  }  
+ 
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
-  .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
+
 /* toggle */
   .hidden {
     display: none;
 }
   
   /* Main column */
-  .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-  }
-  
+
   /* Fake image, just for this example */
   .img {
     background-color: #aaa;
@@ -84,7 +64,6 @@
     padding: 20px;
   }
   
-  /* Footer */
   .footer{
     background: #343a35;
     padding: 14px 20px;
@@ -95,18 +74,18 @@
 
 
 
-
 /* Container----values page */
 
 .container
 {
   position: relative;
-  width: 1100px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 30px;
+  place-items: center;
 }
 
 .container .value-card{
@@ -120,6 +99,8 @@
   flex-direction: column;
   box-shadow: 0 3px 50px rgba(0,0,0,0.5);
   transition: 0.4s ease-in-out;
+  align-items: center;
+  place-items: center;
 }
 
 .container .value-card:hover{
@@ -134,6 +115,7 @@
   left:20px;
   z-index: 1;
   box-shadow: 0 3px 50px rgba(0,0,0,0.5);
+  place-items: center;
 }
 
 .container .value-card .value-img img{
