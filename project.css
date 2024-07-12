@@ -8,8 +8,6 @@
   }
 
 
-
-/* Header/logo Title */
 .header {
     padding: 80px;
     text-align: center;
@@ -17,18 +15,15 @@
     color: white;
   }
 
-  /* Increase the font size of the heading */
   .header h1 {
     font-size: 40px;
   }
 
-  /* Style the top navigation bar */
   .navbar {
     overflow: hidden;
     background-color: #343a35;
   }
 
-  /* Style the navigation bar links */
   .navbar a {
     float: left;
     display: block;
@@ -38,19 +33,15 @@
     text-decoration: none;
   }
 
-  /* Right-aligned link */
   .navbar a.right {
     float: right;
   }
 
-  /* Change color on hover */
   .navbar a:hover {
     background-color: #ddd;
     color: black;
   }
 
-
-/* SECTIONS */
 
 section {
     padding-top: 4vh;
@@ -62,11 +53,9 @@ section {
 
   .section-container {
     display: flex;
-    /* width: 400px; */
-    /* height: 1000px; */
   }
 
-  /* PROFILE SECTION */
+
 
   #profile {
     display: flex;
@@ -112,14 +101,11 @@ section {
     gap: 1rem;
   }
 
-  /* ICONS */
 
   .icon {
     cursor: pointer;
     height: 2rem;
   }
-
-  /* BUTTONS */
 
   .btn-container {
     display: flex;
@@ -167,8 +153,6 @@ section {
     gap: 1rem;
   }
 
-  /* ABOUT SECTION */
-
   #about {
     position: relative;
   }
@@ -187,7 +171,6 @@ section {
   .about-containers,
   .about-details-container {
     display: flex;
-    /* height: 200px; */
   }
 
   .about-pic {
@@ -220,8 +203,6 @@ section {
     width: 400px;
     margin: auto 0;
   }
-
-  /* EXPERIENCE SECTION */
 
   #experience {
     position: relative;
@@ -260,8 +241,6 @@ section {
     cursor: default;
   }
 
-  /* PROJECTS SECTION */
-
   #projects {
     position: relative;
     align-items: center;
@@ -290,7 +269,6 @@ section {
   }
 
 
-  /* Footer */
   .footer{
     background: #343a35;
     padding: 14px 20px;
